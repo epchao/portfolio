@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com"
+baseURL = "https://epchao.github.io/portfolio"
 languageCode = "en-us"
 title = "Eugene Chao"
 theme = "hugo-digital-garden-theme"
