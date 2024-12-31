@@ -9,7 +9,7 @@ copyright = "Eugene Chao ©"
   name = "Hi, I'm Eugene Chao!"
   description = "An Aspiring Software Engineer"
   initials = "Eugene Chao"
-  googleAnalytics = ""
+  googleAnalytics = "G-QHVEPLZK49"
 
   [[params.social]]
     name = "Github"
