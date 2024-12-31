@@ -1,0 +1,56 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Eugene Chao"
+theme = "hugo-digital-garden-theme"
+themesdir = "./themes"
+copyright = "Eugene Chao ©"
+
+[params]
+  name = "Hi, I'm Eugene Chao!"
+  description = "An Aspiring Software Engineer"
+  initials = "Eugene Chao"
+  googleAnalytics = ""
+
+  [[params.social]]
+    name = "Github"
+    link = "https://github.com/epchao"
+    icon = "fab fa-github"
+
+  [[params.social]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/epchao/"
+    icon = "fab fa-linkedin"
+
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+
+[taxonomies]
+  garden_tags = 'garden_tags'
+  project_tags = 'project_tags'
+  library_tags = 'library_tags'
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'
